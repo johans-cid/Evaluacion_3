@@ -1,0 +1,1 @@
+from negocio.negocio_deportistas import mejor_resultado

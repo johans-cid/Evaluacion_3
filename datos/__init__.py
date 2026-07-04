@@ -1,0 +1,1 @@
+from datos.datos_deportistas import deportistas
