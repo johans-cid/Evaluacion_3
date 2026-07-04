@@ -1,3 +1,3 @@
 from negocio.negocio_deportistas import mejor_resultado
 from negocio.negocio_compras import suma_y_promedio
-from negocio.negocio_tasa_cambio import conversion_moneda
+from negocio.negocio_tasa_cambio import conversion_moneda, num_correcto, texto_correcto

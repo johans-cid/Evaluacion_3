@@ -1,6 +1,6 @@
 from presentacion.info_deportistas import mostrar_deportistas
 from presentacion.info_compras import mostrar_compras
-from datos import nombre
+from datos import nombre, fecha_creacion, creador, version
 from presentacion.info_tasa_cambio import mostrar_conversor
 
 def menu_app():
@@ -8,12 +8,13 @@ def menu_app():
         print()
         print(f"{nombre}")
         print(f'{'=' * len(nombre)}')
+        print(f"Creador:{creador} v{version} Fecha creacion:{fecha_creacion}")
         print()
         print("""Opciones: 
               
 [1] Ejercicio 1: Resultado de competencias
-[2] Ejercicio 2: 
-[3] Ejercicio 3:
+[2] Ejercicio 2: Calculo de gasto total 
+[3] Ejercicio 3: Uso de diccionarios
 [4] Salir""")
         
         print()
