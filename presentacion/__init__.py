@@ -1,1 +1,3 @@
 from presentacion.menu import menu_app
+from presentacion.info_deportistas import mostrar_deportistas
+from presentacion.info_tasa_cambio import mostrar_conversor

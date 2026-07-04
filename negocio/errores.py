@@ -1,0 +1,3 @@
+def error(a):
+    try:
+    
